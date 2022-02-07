@@ -205,7 +205,6 @@ hr{
 .logo .btn-read {
     width: 10%;
     height: 20%;
-    /* margin-top: 5%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -474,7 +473,6 @@ button:hover {
 @media screen and (max-width: 1024px) {
     /* Se puede solucionar el hover con los filtros en responsive */
         .bg-photo {
-            padding: 0 15% 15% 15%;
             overflow: hidden;
         }
         
@@ -489,6 +487,7 @@ button:hover {
         .logo .btn-read {
             width: 20%;
             height: 30%;
+            margin-top: 2%;
         }
         
         .logo button {
@@ -529,16 +528,16 @@ button:hover {
         }
     } 
     
+
+/* @media screen and (max-width: 720x) {
+    
+} */
+
 @media screen and (max-width: 414px) {
     
-        /* .bg-photo {
-            overflow: hidden;
-            width: 100%;
-            padding-left: 5%;
-            justify-content: center;
-        } */
         .title {
             flex-wrap: wrap;
+            height: 70%;
         }
         .logo {
             width: initial;
@@ -569,7 +568,7 @@ button:hover {
         }  
         
         .sm-icons {
-            width: 90%;
+            width: 100%;
             justify-content: center;
             align-items: center;
         }
@@ -577,26 +576,6 @@ button:hover {
         .sm-icons a i{
             font-size: 1.2rem;
         }
-
-
-        /* .container2{
-            min-height: 100vh;
-            padding: 20% 5%;
-        }
-        
-        .descript p {
-            font-size: 1rem;
-        }
-
-        .title {
-            flex-direction: column;
-        }
-    
-   
-
-        footer  {
-            display: none !important;
-        } */
 
         .bg-btn {
             width: 5%;
